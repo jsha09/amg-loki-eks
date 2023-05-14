@@ -1,0 +1,8 @@
+config:
+  # publish data to loki
+  clients:
+    - url: http://loki-gateway/loki/api/v1/push
+      basic_auth:
+        username: test
+        password: test
+      tenant_id: 1
